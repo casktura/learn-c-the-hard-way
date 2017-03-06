@@ -1,2 +1,1 @@
-# learn-c-the-hard-way
-Learn C the Hard Way
+# Learn C the Hard Way
