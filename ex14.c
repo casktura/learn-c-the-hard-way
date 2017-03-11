@@ -9,7 +9,7 @@ void print_letters(char arg[], int n);
 void print_arguments(int argc, char *argv[]) {
 	int i = 0;
 
-	for (i = 0;i < argc;i++) {
+	for (i = 0; i < argc; i++) {
 		print_letters(argv[i], strlen(argv[i]));
 	}
 }
@@ -17,7 +17,7 @@ void print_arguments(int argc, char *argv[]) {
 void print_letters(char arg[], int n) {
 	int i = 0;
 
-	for (i = 0;i < n;i++) {
+	for (i = 0; i < n; i++) {
 		char ch = arg[i];
 
 		if (can_print_it(ch)) {
