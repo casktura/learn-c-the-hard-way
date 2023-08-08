@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     int areas[] = {10, 12, 13, 14, 20};
     char name[] = "Zed";
     char full_name[] = {
         'Z', 'e', 'd',
         ' ', 'A', '.', ' ',
-        'S', 'h', 'a', 'w', '\0'
-    };
+        'S', 'h', 'a', 'w', '\0'};
 
     // WARNING: On some systems you may have to change
     // %llu in this code to %ld since it will unsigned int
